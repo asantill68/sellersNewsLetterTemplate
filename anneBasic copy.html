@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Mail_Test</title>
     <style>
-        #pic {
-            display: inline-block;
-
+        body {
+            /* background-color: rgb(8, 73, 8); */
+            background-color: rgb(190, 0, 0);
         }
 
         .container {
@@ -17,24 +17,56 @@
             margin: 0 auto;
         }
 
+        h1 {
+            text-align: center;
+            color: rgb(236, 231, 231);
+        }
+
+        .containerSM {
+            width: 160px;
+            margin: 0 auto;
+        }
+
         img {
             margin-left: auto;
             margin-right: auto;
-            display: block;
-            border: 2px solid white;
+            display: inline-block;
             border-radius: 10px;
         }
     </style>
 </head>
 
 <body>
+
     <div class="container">
-        <div style="display: inline-block;">
-            <img id="pic"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/900px-Facebook_f_logo_%282019%29.svg.png"
-                alt="" height="70px" width="70 px">
-            <img id="pic" src="https://hivgov-prod-v3.s3.amazonaws.com/s3fs-public/instagramlogoresized-1.jpg" alt=""
-                height="75px" width="75px">
+        <h1>
+            Anne's KW Newsletter
+        </h1>
+
+        <!-- Intro Image -->
+        <!-- Images taken from google photos in public folder -->
+        <img width="480" height="315"
+            src="https://lh3.googleusercontent.com/pw/AM-JKLVUSGCrJF-hLU3kb7GuY-0i-kB7bNjqRfv1t3j833R-ZQIER3GSbTzurGjlXcXUbsT8JXnNfeaxwDxUnwlHBJnClD1dh310FM4J1xbWV3ldr3aG0jS9YaIbQI0F8TihGTF7s_VnTljD9i1Nt7plDboP=w834-h625-no?authuser=0"
+            alt="Sunset at the Ranch">
+        <img width="480" height="315"
+            src="https://lh3.googleusercontent.com/pw/AM-JKLWbBALQFIPrd5O5ZJCESi2VQSIwwocbojbDY-ReUagxfUygz0JrmILNuSK7jm8uCUtkHuE69romCblxdc6MYAJH1_B1VU7O6HViEONmdxIPaosZ10NN_BMt_gacy_9l4y_Rw2q4S96mWKtg88RrHV6u=w834-h625-no?authuser=0"
+            alt="Sunset at the Ranch2">
+        <br>
+
+        <div class="containerSM">
+            <br>
+            <div>
+                <!-- FB Logo and Link -->
+                <a href="https://www.facebook.com/SanToneSellers/?modal=admin_todo_tour" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/900px-Facebook_f_logo_%282019%29.svg.png"
+                        alt="FB Logo" height="70px" width="70 px">
+                </a>
+                <!-- Instagram Logo and Link -->
+                <a href="https://instagram.com/annesellers_realtor" target="_blank">
+                    <img src="https://hivgov-prod-v3.s3.amazonaws.com/s3fs-public/instagramlogoresized-1.jpg"
+                        alt="Instagram Logo" height="75px" width="75px">
+                </a>
+            </div>
         </div>
     </div>
 </body>
